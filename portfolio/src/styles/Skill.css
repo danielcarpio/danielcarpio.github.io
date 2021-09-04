@@ -1,0 +1,36 @@
+.skill .title{
+    text-align: center;
+}
+
+.skill .skill_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.skill .skill_list .skill_el{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.skill .skill_list .skill_el:hover{
+    background-color: #282f38;
+}
+
+.skill .skill_list .skill_el img{
+    filter: invert(1);
+    width: 20%;
+}
+
+@media only screen and (max-width:1200px){
+    .skill .skill_list .skill_el{
+        width: 30%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+}

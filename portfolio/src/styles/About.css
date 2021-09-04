@@ -1,0 +1,44 @@
+.about {
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.about .name {
+    width: 50%;
+}
+
+.about .name p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 700%;
+    font-weight: bolder;
+}
+
+.about .name p.name, .about .name p.surname {
+    color: #90adc6;
+}
+
+.about .introduction {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:1200px){
+    .about {
+        display: block;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .about .name {
+        width: 100%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .about .introduction {
+        width: 100%;
+    }
+}

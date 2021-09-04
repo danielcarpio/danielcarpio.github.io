@@ -1,0 +1,21 @@
+html, #root, .App {
+    background-color: #232931;
+    color: #f0f0f0;
+}
+
+.App main{
+    width: 70%;
+    margin: auto;
+}
+
+@media only screen and (max-width:1200px){
+    .App main{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .App main{
+        width: 90%;
+    }
+}

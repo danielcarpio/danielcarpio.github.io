@@ -1,0 +1,19 @@
+.scrollTo {
+    float: left;
+    position: fixed;
+    right: 1.25%;
+    bottom: 1.25%;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #90adc6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.scrollTo img{
+    width: 20px;
+    height: 20px;
+}

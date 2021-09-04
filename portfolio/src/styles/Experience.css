@@ -1,0 +1,12 @@
+.experience {
+    padding-bottom: 2em;
+}
+
+.experience .title {
+    text-align: center;
+}
+
+.experience > div {
+    width: 100%;
+    display: flex;
+}

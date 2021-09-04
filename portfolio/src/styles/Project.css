@@ -1,0 +1,57 @@
+.project{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.project .title{
+    text-align: center;
+}
+
+.project .projects_cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project .card{
+    box-sizing: border-box;
+    background-color: #282f38;
+    width: 30%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em 2em;
+    text-align: center;
+}
+
+.project .card h3{
+    font-weight: bolder;
+}
+
+.project .card .tech{
+    font-weight: bolder;
+    font-size: 80%;
+}
+
+.project .card .link{
+    cursor: pointer;
+    width: 10%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.project .card .link img{
+    filter: invert(1);
+}
+
+@media only screen and (max-width:1200px){
+    .project .card{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .project .card{
+        width: 80%;
+    }
+}
