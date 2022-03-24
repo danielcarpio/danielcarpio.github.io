@@ -3,7 +3,8 @@ import python_icon from './../icons/icons8-python.svg';
 import django_icon from './../icons/icons8-django.svg';
 import linux_icon from './../icons/linux-brands.svg';
 import docker_icon from './../icons/docker-brands.svg';
-import react_icon from './../icons/react-brands.svg';
+import vue_icon from './../icons/vuejs-brands.svg';
+//import react_icon from './../icons/react-brands.svg';
 import html_icon from './../icons/html5-brands.svg';
 import database_icon from './../icons/database-solid.svg';
 
@@ -12,7 +13,8 @@ import './../styles/Skill.css';
 const Skill = ()=>{
     const HTML_LINK = 'https://developer.mozilla.org/en-US/docs/Web/HTML';
     const JS_LINK = 'https://developer.mozilla.org/en-US/docs/Web/JavaScript';
-    const REACT_LINK = 'https://reactjs.org/';
+//    const REACT_LINK = 'https://reactjs.org/';
+    const VUE_LINK = 'https://vuejs.org/';
     const PYTHON_LINK = 'https://www.python.org/';
     const DJANGO_LINK = 'https://www.djangoproject.com/';
     const LINUX_LINK = 'https://archlinux.org/';
@@ -36,16 +38,16 @@ const Skill = ()=>{
                     <img src={js_icon} alt='JavaScript'/>
                     <p>JavaScript</p>
                 </div>
-                <div onClick={_=>openWebsite(REACT_LINK)} className='skill_el'>
-                    <img src={react_icon} alt='react'/>
-                    <p>React</p>
+                <div onClick={_=>openWebsite(VUE_LINK)} className='skill_el'>
+                    <img src={vue_icon} alt='VueJS'/>
+                    <p>Vue</p>
                 </div>
                 <div onClick={_=>openWebsite(PYTHON_LINK)} className='skill_el'>
                     <img src={python_icon} alt='Python'/>
                     <p>Python</p>
                 </div>
                 <div onClick={_=>openWebsite(DJANGO_LINK)} className='skill_el'>
-                    <img src={django_icon} alt='django'/>
+                    <img src={django_icon} alt='Django'/>
                     <p>Django</p>
                 </div>
                 <div onClick={_=>openWebsite(LINUX_LINK)} className='skill_el'>

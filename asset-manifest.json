@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e66014ff.chunk.css",
-    "main.js": "/static/js/main.122bab70.chunk.js",
-    "main.js.map": "/static/js/main.122bab70.chunk.js.map",
+    "main.js": "/static/js/main.0a58380a.chunk.js",
+    "main.js.map": "/static/js/main.0a58380a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fee99c77.js",
     "runtime-main.js.map": "/static/js/runtime-main.fee99c77.js.map",
     "static/js/2.dc56dd85.chunk.js": "/static/js/2.dc56dd85.chunk.js",
@@ -24,12 +24,12 @@
     "static/media/icons8-python.ffdd90e7.svg": "/static/media/icons8-python.ffdd90e7.svg",
     "static/media/linkedin.27a3f479.svg": "/static/media/linkedin.27a3f479.svg",
     "static/media/linux-brands.a7572de2.svg": "/static/media/linux-brands.a7572de2.svg",
-    "static/media/react-brands.4e0c4c03.svg": "/static/media/react-brands.4e0c4c03.svg"
+    "static/media/vuejs-brands.ecb991ef.svg": "/static/media/vuejs-brands.ecb991ef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fee99c77.js",
     "static/js/2.dc56dd85.chunk.js",
     "static/css/main.e66014ff.chunk.css",
-    "static/js/main.122bab70.chunk.js"
+    "static/js/main.0a58380a.chunk.js"
   ]
 }
